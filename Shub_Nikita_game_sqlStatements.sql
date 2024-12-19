@@ -8,7 +8,6 @@ values
 (2, 'U.F.O', 'board game', '*',	10),
 (6, 'Jigsaw puzzle', 'platformer', '****', 30);
 
--- source /Users/s2400775/Desktop/BCH/ilkka/Shub_Nikita_game_project/Shub_Nikita_game_sqlStatements.sql
 
 select * from game;
 select genre, number, quantity from game;

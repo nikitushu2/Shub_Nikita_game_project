@@ -17,7 +17,5 @@ insert into game values(2,'Witcher 3','RPG', '*****', 5);
 
 create user if not exists 'daniel'@'localhost';
 set password for 'daniel'@'localhost' = password('123');
--- change the password to qY1IzmJD later
--- source /Users/s2400775/Desktop/BCH/ilkka/Shub_Nikita_game_project/Shub_Nikita_game_createStatements.sql
 
 grant all privileges on gamedb.* to 'daniel'@'localhost';
